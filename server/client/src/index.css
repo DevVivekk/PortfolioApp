@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&family=Nerko+One&family=Open+Sans:ital,wght@1,600&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+@media screen and (max-width:600px) {
+    html{
+        font-size:45%;
+    }
+}
+
+@media screen and (max-width:380px) {
+    html{
+        font-size:38%;
+    }
+}
+/* Home page styling starts */
+
+.home{
+    height: auto;
+    min-width: 65rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.hero-1{
+    background-color: whitesmoke;
+    height: auto;
+    width: 63rem;
+    min-width: 64rem;
+}
+.main-hero1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+   margin-top: 10rem ;
+}
+.hero-2{
+    background-color: white;
+    height: auto;
+    width: 63rem;
+    min-width: 64rem;
+}
+.hero-button ,.hero-button-2{
+    width:10rem;
+    height: 3rem;
+    background-color: rgb(58, 54, 39);
+    color: white;
+}
+.main-hero2{
+    display: flex;
+    flex-direction: column;
+    margin: 10rem 0rem 0rem 10rem;
+}
+.hero-button-3{
+    margin-left: 4.5rem;
+    margin-top: -0.5rem;
+}
+.button-2{
+    display: flex;
+    flex-direction: row;
+}
+.hero-button-2:hover, .hero-button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.hero-para{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+button{
+    font-family: 'Nerko One', cursive;
+    font-size: 2rem;
+}
+
+
+/* Second page styling starts */
+
+.second-page{
+    width: 100vw;
+    min-width: 65rem;
+    height: auto;
+    background-image: linear-gradient(120deg, white, rgb(103, 186, 103));
+}
+.page-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+}
+.box-1,.box-2{
+    width: 45rem;
+    height: 35rem;
+    border-radius: 4rem;
+    background-color:rgb(62, 84, 62);
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    justify-content: space-around;
+}
+
+/* Styling of Page3 Starts */
+
+.page-3{
+    width: 100vw;
+    min-width: 65rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.boxs-1{
+    height: 15rem;
+    width: 38rem;
+    background-color: rgb(200, 238, 200);
+    border-radius: 3rem;
+    /* margin: 4rem 10rem 0rem 8rem; */
+    margin: 4rem 4rem 0rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.testis-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.testimonials{
+    width: 30rem;
+    height: 20rem;
+    /* margin: 10rem; */
+    padding: 3rem;
+}
+.box-contents-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Page 4 Styling Goes Here  */
+
+.page-4{
+    height: auto;
+    width: 100vw;
+    min-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5rem;
+    background-image: linear-gradient(120deg, white, rgb(155, 232, 155));
+}
+.page4-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.page4box{
+    height: 35rem;
+    min-width: 27rem;
+    background-color: aliceblue;
+    border-radius: 3rem;
+    margin: 3rem;
+}
+.page4-buttons{
+    width: 15rem;
+    height: 5rem;
+    border: 2px solid red;
+    margin-left: 6rem;
+    border-radius: 6rem;
+    cursor: pointer;
+}
+.page4-buttons:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Page 5 styling goes here */
+
+.page-5{
+    width: 100vw;
+    height: auto;
+    min-width: 65rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.page-5-box{
+    width:64rem;
+    min-width: 63rem;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+.button-page5{
+    width: 15rem;
+    height: 5rem;
+    border: 2px solid red;
+    border-radius: 6rem;
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;   
+    margin-top: 1rem;
+}
+.button-page5:hover{
+    background-color: white !important;
+    color: green !important;
+}
+
+/* Page 6 Styling goes here */
+.page-6{
+   height: auto;
+   width:100vw;
+   min-width: 65rem;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+}
+.form{
+    height: auto;
+    width: 63rem;
+    min-width: 50rem;
+    align-items:center;
+    box-shadow: 4px 3px 8px 1px whitesmoke;
+    -webkit-box-shadow: 4px 3px 8px 1px whitesmoke;
+    background-color: aliceblue;
+}
+.details{
+    height: auto;
+    width: 63rem;
+    min-width: 50rem;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+/* Page 7 styling goes here */
+
+.footer{
+    margin-top: 20rem;
+    width: 100vw;
+    min-width: 65rem;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: aliceblue;
+}
+.links{
+    text-decoration: none;
+    color: white;
+}
+.links:hover{
+    color: blue;
+}
+
+/* Contact page styling starts here */
+
+.contact{
+    height: auto;
+    width: 100vw;
+    min-width: 65rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-image: linear-gradient(120deg,aliceblue,aqua);
+}
+.item1{
+  width: 60rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* Resume page styling goes here */
+
+.page-8{
+   height: 80vh;
+   width: 100vw;
+   min-width: 65rem;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.resume{
+    margin-top: 10rem;
+    width: 40rem;
+    height: 40rem;
+    background-color: antiquewhite;
+    box-shadow: 20px 20px 2px -20px antiquewhite;
+    -webkit-box-shadow: -3px -3px 2px -3px antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
